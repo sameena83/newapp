@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import Header from './components/Header'
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div className='container'>
+      
+      <Header title={'Task Trackers'}/>
+      
     </div>
-  );
+  )
 }
 
 export default App;
